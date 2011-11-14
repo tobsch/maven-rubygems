@@ -1,0 +1,10 @@
+GEM
+  remote: mvn://test.de/
+  specs:
+    mvn:rhino:js (1.7.r.2-java)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  mvn:rhino:js

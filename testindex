@@ -1,0 +1,14 @@
+'http://maven.org':
+  - org.apache.thrift:libthrift:0.7.0
+  - org.slf4j:slf4j-api:1.6.4
+  - org.apache.thrift:0.7.0 
+  - org.slf4j:slf4j-api:1.6.4
+  - commons-lang:commons-lang:2.6
+  - javax.servlet:servlet-api:2.5
+  - org.apache.httpcomponents:httpcore:4.0.1
+  - org.apache.httpcomponents:httpclient:4.0.3
+  - commons-logging:commons-logging:1.1
+  - commons-codec:commons-codec:1.5
+  - log4j:log4j:1.2.16
+  - logkit:logkit:1.2.2
+  - avalon-framework:avalon-framework:4.1.5
