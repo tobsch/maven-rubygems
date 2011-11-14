@@ -7,7 +7,8 @@ As soon as you've got two gems which bundle or require the same jar, you'll run 
 A way to cleanly handle java dependencies is maven. But maven stands on its own and has no clue of rubygems.
 
 In jRuby 1.6.x the 
-   gem install mvn:foo
+
+    gem install mvn:foo
 
 magic was introduced which basically makes gems of jars.
 But there is one problem left: Bundler does not support this because of the missing way to list all jars in a repository.
@@ -21,3 +22,8 @@ The basic index just works!
 It's included in the file called "testindex".
 So far, installing a gem with dependencies does not work.
 The next step to get it up and running would be to solve this issue.
+
+## How to test it?
+Simply run
+
+    ./bundler.rb
